@@ -1,5 +1,6 @@
 {
   "backlog": [
+    {"id": 0, "text": "Create Telegram channel for media library", "category": "Media"},
     {"id": 1, "text": "Google OAuth restore (Drive uploads)", "category": "Intrillion"},
     {"id": 2, "text": "Integrate Groq/OpenRouter as native providers", "category": "Ebook"},
     {"id": 3, "text": "Build slide generation webapp/API", "category": "Slides"},
