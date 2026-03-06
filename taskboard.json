@@ -1,0 +1,23 @@
+{
+  "backlog": [
+    {"id": 1, "text": "Google OAuth restore (Drive uploads)", "category": "Intrillion"},
+    {"id": 2, "text": "Integrate Groq/OpenRouter as native providers", "category": "Ebook"},
+    {"id": 3, "text": "Build slide generation webapp/API", "category": "Slides"},
+    {"id": 4, "text": "Create FAQ.md (top 10 FAQs)", "category": "Receptionist"},
+    {"id": 5, "text": "Create Google Drive folder `/Meeting Summaries`", "category": "Meeting"},
+    {"id": 6, "text": "Build meeting processor (Whisper → summary)", "category": "Meeting"},
+    {"id": 7, "text": "Research webapp with caching", "category": "Architecture"},
+    {"id": 8, "text": "DALL-E/Flux API for cover generation", "category": "Ebook"}
+  ],
+  "inprogress": [
+    {"id": 9, "text": "Learn OpenClaw security best practices", "category": "Learning"},
+    {"id": 10, "text": "Document token management strategies", "category": "Learning"},
+    {"id": 11, "text": "Build receptionist agent reference implementation", "category": "Agents"}
+  ],
+  "done": [
+    {"id": 12, "text": "Set up nightly EODD cron", "category": "Automation"},
+    {"id": 13, "text": "Deploy daily morning briefing (7:30 AM)", "category": "Automation"},
+    {"id": 14, "text": "Implement three-tier memory system", "category": "Architecture"},
+    {"id": 15, "text": "Configure model routing (Haiku/Sonnet/web)", "category": "Architecture"}
+  ]
+}
