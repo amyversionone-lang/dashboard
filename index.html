@@ -462,8 +462,6 @@ header p { font-size: 1.1em; color: var(--text-secondary); letter-spacing: 2px; 
           <span class="value">Tomorrow 7:30 AM</span>
         </div>
         <div style="margin-top: 15px;">
-          <button class="button button-small" onclick="runJobNow('briefing')">RUN NOW</button>
-          <button class="button button-small" onclick="toggleJob('briefing')">DISABLE</button>
         </div>
       </div>
 
@@ -487,8 +485,6 @@ header p { font-size: 1.1em; color: var(--text-secondary); letter-spacing: 2px; 
           <span class="value">Today 11:00 PM</span>
         </div>
         <div style="margin-top: 15px;">
-          <button class="button button-small" onclick="runJobNow('memory')">RUN NOW</button>
-          <button class="button button-small" onclick="toggleJob('memory')">DISABLE</button>
         </div>
       </div>
 
@@ -512,8 +508,6 @@ header p { font-size: 1.1em; color: var(--text-secondary); letter-spacing: 2px; 
           <span class="value">Tomorrow 12:00 AM</span>
         </div>
         <div style="margin-top: 15px;">
-          <button class="button button-small" onclick="runJobNow('eodd')">RUN NOW</button>
-          <button class="button button-small" onclick="toggleJob('eodd')">DISABLE</button>
         </div>
       </div>
     </div>
@@ -847,12 +841,7 @@ function switchTab(event, tab) {
   document.getElementById(tab).classList.add('active');
 }
 
-function cleanMemory() { alert('🧹 Cleaning cache... (auto-runs daily at midnight)'); }
-function archiveOld() { alert('📦 Archiving files older than 7 days... (auto-runs nightly)'); }
-function compressArchive() { alert('🗜️ Compressing archive... (saves ~30% space)'); }
-function refreshCron() { alert('🔄 Refreshing cron status...'); }
-function runJobNow(job) { alert(`⚡ Running ${job} job now...`); }
-function toggleJob(job) { alert(`Toggled ${job} job`); }
+// All cron job controls are private — not exposed in public dashboard
 
 // Auto-update stats every 30 seconds
 setInterval(() => {
